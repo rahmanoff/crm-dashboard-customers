@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="./styles.css" />
+    <title>CRM Dashboard: Customers</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="side">
+        <div class="side__header">
+          <img
+            class="side__header-logo-img"
+            src="./img/logo.png" />
+          <h2 class="side__header-title">
+            Dashboard<span class="side__header-title-span">v0.1</span>
+          </h2>
+        </div>
+
+        <div class="side__menu">
+          <div class="side__menu-title">
+            <img
+              class="side__menu-header-img"
+              src="./img/icon-menu-title.png" />
+            <h3 class="side__menu-title-text">Dashboard</h3>
+          </div>
+          <ul class="side__menu-items">
+            <li class="side__menu-item">
+              <a class="side__menu-item-link">
+                <img
+                  class="side__menu-item-img"
+                  src="./img/icon-menu-product.png" />
+                <h4 class="side__menu-item-title">Product</h4>
+                <img
+                  class="side__menu-item-arrow"
+                  src="./img/icon-menu-arrow-right.png" />
+              </a>
+            </li>
+            <li class="side__menu-item">
+              <a class="side__menu-item-link-active">
+                <img
+                  class="side__menu-item-img"
+                  src="./img/icon-menu-customers.png" />
+                <h4 class="side__menu-item-title-active">Customers</h4>
+                <img
+                  class="side__menu-item-arrow-active"
+                  src="./img/icon-menu-arrow-right-active.png" />
+              </a>
+            </li>
+            <li class="side__menu-item">
+              <a class="side__menu-item-link">
+                <img
+                  class="side__menu-item-img"
+                  src="./img/icon-menu-income.png" />
+                <h4 class="side__menu-item-title">Income</h4>
+                <img
+                  class="side__menu-item-arrow"
+                  src="./img/icon-menu-arrow-right.png" />
+              </a>
+            </li>
+            <li class="side__menu-item">
+              <a class="side__menu-item-link">
+                <img
+                  class="side__menu-item-img"
+                  src="./img/icon-menu-promote.png" />
+                <h4 class="side__menu-item-title">Promote</h4>
+                <img
+                  class="side__menu-item-arrow"
+                  src="./img/icon-menu-arrow-right.png" />
+              </a>
+            </li>
+            <li class="side__menu-item">
+              <a class="side__menu-item-link">
+                <img
+                  class="side__menu-item-img"
+                  src="./img/icon-menu-help.png" />
+                <h4 class="side__menu-item-title">Help</h4>
+                <img
+                  class="side__menu-item-arrow"
+                  src="./img/icon-menu-arrow-right.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="user__info">
+          <img
+            class="user__info-avatar"
+            src="./img/avatar.png" />
+          <div class="user__info-text-wrapper">
+            <h4 class="user__info-title">Evano</h4>
+            <p class="user__info-text">Project Manager</p>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <h2 class="main__title-text">Hello Evano 👋🏼,</h2>
+        <section class="customers">
+          <div class="customers__header">
+            <div class="customers__header-title-wrapper">
+              <h3 class="customers__header-title">All Customers</h3>
+              <span>Active Members</span>
+            </div>
+            <div class="customers__header-search-wrapper">
+              <img
+                class="search-logo"
+                src="./img/search.png" />
+              <div class="customers__header-search">
+                <input
+                  type="text"
+                  placeholder="Search" />
+              </div>
+            </div>
+          </div>
+          <div class="customers-data">
+            <table>
+              <tr>
+                <th class="customers-table__head">Name</th>
+                <th class="customers-table__head">Company</th>
+                <th class="customers-table__head">Phone Number</th>
+                <th class="customers-table__head">Email</th>
+                <th class="customers-table__head">Country</th>
+                <th class="customers-table__head">Status</th>
+              </tr>
+              <tr>
+                <td class="customers-table__data">Jane Cooper</td>
+                <td class="customers-table__data">Microsoft</td>
+                <td class="customers-table__data">(225) 555-0118</td>
+                <td class="customers-table__data">
+                  jane@microsoft.com
+                </td>
+                <td class="customers-table__data">United States</td>
+                <td class="customers-table__data-status">Active</td>
+              </tr>
+              <tr>
+                <td class="customers-table__data">Floyd Miles</td>
+                <td class="customers-table__data">Yahoo</td>
+                <td class="customers-table__data">(205) 555-0100</td>
+                <td class="customers-table__data">floyd@yahoo.com</td>
+                <td class="customers-table__data">Kiribati</td>
+                <td class="customers-table__data-status">Inactive</td>
+              </tr>
+              <tr>
+                <td class="customers-table__data">Ronald Richards</td>
+                <td class="customers-table__data">Adobe</td>
+                <td class="customers-table__data">(302) 555-0107</td>
+                <td class="customers-table__data">ronald@adobe.com</td>
+                <td class="customers-table__data">Israel</td>
+                <td class="customers-table__data-status">Inactive</td>
+              </tr>
+              <tr>
+                <td class="customers-table__data">Marvin McKinney</td>
+                <td class="customers-table__data">Tesla</td>
+                <td class="customers-table__data">(252) 555-0126</td>
+                <td class="customers-table__data">marvin@tesla.com</td>
+                <td class="customers-table__data">Iran</td>
+                <td class="customers-table__data-status">Active</td>
+              </tr>
+              <tr>
+                <td class="customers-table__data">Jerome Bell</td>
+                <td class="customers-table__data">Google</td>
+                <td class="customers-table__data">(629) 555-0129</td>
+                <td class="customers-table__data">jerome@google.com</td>
+                <td class="customers-table__data">United States</td>
+                <td class="customers-table__data-status">Active</td>
+              </tr>
+              <tr>
+                <td class="customers-table__data">Kathryn Murphy</td>
+                <td class="customers-table__data">Microsoft</td>
+                <td class="customers-table__data">(406) 555-0120</td>
+                <td class="customers-table__data">
+                  kathryn@microsoft.com
+                </td>
+                <td class="customers-table__data">United States</td>
+                <td class="customers-table__data-status">Active</td>
+              </tr>
+              <tr>
+                <td class="customers-table__data">Jacob Jones</td>
+                <td class="customers-table__data">Yahoo</td>
+                <td class="customers-table__data">(208) 555-0112</td>
+                <td class="customers-table__data">jacob@yahoo.com</td>
+                <td class="customers-table__data">Brazil</td>
+                <td class="customers-table__data-status">Active</td>
+              </tr>
+              <tr>
+                <td class="customers-table__data">Kristin Watson</td>
+                <td class="customers-table__data">Facebook</td>
+                <td class="customers-table__data">(704) 555-0127</td>
+                <td class="customers-table__data">
+                  kristin@facebook.com
+                </td>
+                <td class="customers-table__data">Åland Islands</td>
+                <td class="customers-table__data-status">Inactive</td>
+              </tr>
+            </table>
+            <div class="customers__footer">
+              <div class="customers__footer-info">
+                Showing data 1 to 8 of 256K entries
+              </div>
+              <div class="customers__footer-navigation">
+                <div class="cistomers__footer-navigation-item-first">
+                  <img
+                    src="./img/navigation-first.png"
+                    alt="navigation first page" />
+                </div>
+                <div class="cistomers__footer-navigation-item-active">
+                  1
+                </div>
+                <div class="cistomers__footer-navigation-item">2</div>
+                <div class="cistomers__footer-navigation-item">3</div>
+                <div class="cistomers__footer-navigation-item">4</div>
+                <div class="cistomers__footer-navigation-item-more">
+                  ...
+                </div>
+                <div class="cistomers__footer-navigation-item">40</div>
+                <div class="cistomers__footer-navigation-item-last">
+                  <img
+                    src="./img/navigation-last.png"
+                    alt="navigation last page" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
