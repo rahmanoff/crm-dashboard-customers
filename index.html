@@ -6,6 +6,9 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
     <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet" />
+    <link
       rel="preconnect"
       href="https://fonts.googleapis.com" />
     <link
@@ -113,22 +116,20 @@
           <div class="customers__header">
             <div class="customers__header-title-wrapper">
               <h3 class="customers__header-title">All Customers</h3>
-              <span>Active Members</span>
+              <span class="customers__header-span">Active Members</span>
             </div>
             <div class="customers__header-search-wrapper">
-              <img
-                class="search-logo"
-                src="./img/search.png" />
               <div class="customers__header-search">
                 <input
                   type="text"
-                  placeholder="Search" />
+                  placeholder="&#xF002; Search"
+                  style="font-family: Arial, FontAwesome" />
               </div>
             </div>
           </div>
           <div class="customers-data">
             <table>
-              <tr>
+              <tr class="customers-table__row">
                 <th class="customers-table__head">Name</th>
                 <th class="customers-table__head">Company</th>
                 <th class="customers-table__head">Phone Number</th>
@@ -136,7 +137,7 @@
                 <th class="customers-table__head">Country</th>
                 <th class="customers-table__head">Status</th>
               </tr>
-              <tr>
+              <tr class="customers-table__row">
                 <td class="customers-table__data">Jane Cooper</td>
                 <td class="customers-table__data">Microsoft</td>
                 <td class="customers-table__data">(225) 555-0118</td>
@@ -144,41 +145,51 @@
                   jane@microsoft.com
                 </td>
                 <td class="customers-table__data">United States</td>
-                <td class="customers-table__data-status">Active</td>
+                <td class="customers-table__data-status-active">
+                  <p>Active</p>
+                </td>
               </tr>
-              <tr>
+              <tr class="customers-table__row">
                 <td class="customers-table__data">Floyd Miles</td>
                 <td class="customers-table__data">Yahoo</td>
                 <td class="customers-table__data">(205) 555-0100</td>
                 <td class="customers-table__data">floyd@yahoo.com</td>
                 <td class="customers-table__data">Kiribati</td>
-                <td class="customers-table__data-status">Inactive</td>
+                <td class="customers-table__data-status-inactive">
+                  <p>Inactive</p>
+                </td>
               </tr>
-              <tr>
+              <tr class="customers-table__row">
                 <td class="customers-table__data">Ronald Richards</td>
                 <td class="customers-table__data">Adobe</td>
                 <td class="customers-table__data">(302) 555-0107</td>
                 <td class="customers-table__data">ronald@adobe.com</td>
                 <td class="customers-table__data">Israel</td>
-                <td class="customers-table__data-status">Inactive</td>
+                <td class="customers-table__data-status-inactive">
+                  <p>Inactive</p>
+                </td>
               </tr>
-              <tr>
+              <tr class="customers-table__row">
                 <td class="customers-table__data">Marvin McKinney</td>
                 <td class="customers-table__data">Tesla</td>
                 <td class="customers-table__data">(252) 555-0126</td>
                 <td class="customers-table__data">marvin@tesla.com</td>
                 <td class="customers-table__data">Iran</td>
-                <td class="customers-table__data-status">Active</td>
+                <td class="customers-table__data-status-active">
+                  <p>Active</p>
+                </td>
               </tr>
-              <tr>
+              <tr class="customers-table__row">
                 <td class="customers-table__data">Jerome Bell</td>
                 <td class="customers-table__data">Google</td>
                 <td class="customers-table__data">(629) 555-0129</td>
                 <td class="customers-table__data">jerome@google.com</td>
                 <td class="customers-table__data">United States</td>
-                <td class="customers-table__data-status">Active</td>
+                <td class="customers-table__data-status-active">
+                  <p>Active</p>
+                </td>
               </tr>
-              <tr>
+              <tr class="customers-table__row">
                 <td class="customers-table__data">Kathryn Murphy</td>
                 <td class="customers-table__data">Microsoft</td>
                 <td class="customers-table__data">(406) 555-0120</td>
@@ -186,17 +197,21 @@
                   kathryn@microsoft.com
                 </td>
                 <td class="customers-table__data">United States</td>
-                <td class="customers-table__data-status">Active</td>
+                <td class="customers-table__data-status-active">
+                  <p>Active</p>
+                </td>
               </tr>
-              <tr>
+              <tr class="customers-table__row">
                 <td class="customers-table__data">Jacob Jones</td>
                 <td class="customers-table__data">Yahoo</td>
                 <td class="customers-table__data">(208) 555-0112</td>
                 <td class="customers-table__data">jacob@yahoo.com</td>
                 <td class="customers-table__data">Brazil</td>
-                <td class="customers-table__data-status">Active</td>
+                <td class="customers-table__data-status-active">
+                  <p>Active</p>
+                </td>
               </tr>
-              <tr>
+              <tr class="customers-table__row">
                 <td class="customers-table__data">Kristin Watson</td>
                 <td class="customers-table__data">Facebook</td>
                 <td class="customers-table__data">(704) 555-0127</td>
@@ -204,7 +219,9 @@
                   kristin@facebook.com
                 </td>
                 <td class="customers-table__data">Åland Islands</td>
-                <td class="customers-table__data-status">Inactive</td>
+                <td class="customers-table__data-status-inactive">
+                  <p>Inactive</p>
+                </td>
               </tr>
             </table>
             <div class="customers__footer">
