@@ -12,55 +12,62 @@
   margin: 0 auto;
   display: flex;
 }
+
 .side {
   width: 306px;
   position: relative;
 }
+
 .side__header {
   display: flex;
   flex-direction: row;
   margin: 36px 0px 64px 28px;
   align-items: center;
 }
+
 .side__header-logo-img {
   margin-right: 8px;
 }
+
 .side__header-title {
   font-size: 26px;
   font-weight: 600;
   margin-right: 83px;
 }
+
 .side__header-title-span {
   font-size: 10px;
   font-weight: 500;
   margin-left: 4px;
 }
-.side__menu {
-}
+
 .side__menu-title {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-bottom: 40px;
 }
+
 .side__menu-header-img {
   margin-left: 39px;
 }
+
 .side__menu-title-text {
   color: #9197b3;
   font-size: 14px;
   font-weight: 500;
   margin-left: 14px;
 }
-.side__menu-items {
-}
+
 .side__menu-item {
   list-style-type: none;
 }
+
 .side__menu-item-link-active {
   list-style-type: none;
   padding: 11px;
 }
+
 .side__menu-item-link {
   display: flex;
   flex-direction: row;
@@ -69,6 +76,7 @@
   margin-bottom: 28px;
   position: relative;
 }
+
 .side__menu-item-link-active {
   background-color: #5932ea;
   border-radius: 10px;
@@ -90,20 +98,24 @@
 .side__menu-item-img {
   margin-right: 14px;
 }
+
 .side__menu-item-title {
   color: #9197b3;
   font-size: 14px;
   font-weight: 500;
 }
+
 .side__menu-item-title-active {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
 }
+
 .side__menu-item-arrow {
   position: absolute;
   right: 36px;
 }
+
 .user__info {
   position: absolute;
   bottom: 76px;
@@ -111,28 +123,34 @@
   flex-direction: row;
   align-items: center;
 }
+
 .user__info-avatar {
   margin-right: 12px;
   padding-left: 28px;
 }
+
 .user__info-title {
   font-size: 14px;
   font-weight: 500;
 }
+
 .main {
   width: 100%;
   background-color: #fafbff;
 }
+
 .main__title-text {
   margin: 41px 0 51px 71px;
   font-size: 24px;
   font-weight: 500;
 }
+
 .user__info-text {
   font-size: 12px;
   font-weight: 400;
   color: #757575;
 }
+
 .customers {
   margin: 0 95px 258px 71px;
   background-color: #fff;
@@ -146,8 +164,7 @@
   align-items: center;
   position: relative;
 }
-.customers__header-title-wrapper {
-}
+
 .customers__header-title {
   font-size: 22px;
   font-weight: 600;
@@ -162,12 +179,14 @@
 .customers__header-search-wrapper {
   display: flex;
 }
+
 .search-logo {
   height: 24px;
   position: absolute;
   right: 0px;
   padding-right: 235px;
 }
+
 .customers__header-search {
   position: absolute;
   right: 0px;
@@ -205,11 +224,13 @@
   padding: 20px;
   border-bottom: 1px solid #b5b7c0;
 }
+
 .customers-table__data {
   color: #292d32;
   padding: 20px 20px;
   border-bottom: 1px solid #b5b7c0;
 }
+
 .customers-table__data-status-active,
 .customers-table__data-status-inactive {
   text-align: center;
@@ -236,20 +257,65 @@
 
 .customers__footer {
   display: flex;
-  margin-bottom: 40px;
+  padding: 0 0 40px 38px;
+  position: relative;
 }
+
 .customers__footer-info {
+  font-size: 14px;
+  color: #b5b7c0;
 }
+
 .customers__footer-navigation {
   display: flex;
+  position: absolute;
+  right: 40px;
+  list-style: none;
 }
-.cistomers__footer-navigation-item-first {
+
+.customers__footer-navigation-item-first {
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  color: #404b52;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #eee;
+  margin-right: 12px;
 }
-.cistomers__footer-navigation-item-active {
+
+.footer-navigation-item-link {
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 24px;
 }
-.cistomers__footer-navigation-item {
+
+.footer-navigation-item-link-active {
+  color: #fff;
+  background-color: #5932ea;
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 24px;
+  border-radius: 5px;
 }
-.cistomers__footer-navigation-item-more {
+
+.customers__footer-navigation-item {
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  color: #404b52;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #eee;
+  margin-right: 12px;
 }
-.cistomers__footer-navigation-item-last {
+
+.customers__footer-navigation-item-more {
+  margin-right: 12px;
 }
